@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    background:#333;
+}
+.code-box{
+    max-width: 250px;
+    height: 100%;
+    margin: 100px auto;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.input{
+    display: flex;
+    flex-wrap: wrap;
+}
+.input span{
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.input input{
+    flex: 1;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.code-box button{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color:  #6204e9;;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.thecode {
+    margin: auto;
+}
